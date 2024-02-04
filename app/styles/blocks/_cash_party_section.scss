@@ -1,3 +1,39 @@
 .cash_party_section {
   position: relative;
+  padding: 100px 0;
+  height: 600px;
+  &__title {
+    text-align: center;
+    font-weight: 700;
+    font-family: $font-family-secondary;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    &_green {
+      color: $color-secondary;
+    }
+    &_second {
+      text-align: center;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-family: $font-family-primary;
+      font-weight: 500;
+      line-height: 150%;
+      margin-bottom: 30px;
+    }
+  }
+  &__description {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: $font-family-primary;
+    font-weight: 700;
+    line-height: 120%;
+    color: #ffffff;
+    background-color: rgba(73, 110, 13, 0.7);
+    border: 2px solid $color-secondary;
+    border-radius: 20px;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+  }
 }
