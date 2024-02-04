@@ -1,0 +1,29 @@
+.payment_section {
+  &__container {
+
+  }
+  &__link {
+    display: block;
+    width: 80%;
+    margin: 0 auto 50px;
+    &_ticket {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+  &__hint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_text {
+      font-size: 12px;
+      margin-right: 10px;
+    }
+    &_icon {
+      width: 20px;
+      height: auto;
+      display: block;
+    }
+  }
+}

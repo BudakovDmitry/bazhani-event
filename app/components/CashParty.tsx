@@ -41,7 +41,7 @@ const CashParty = () => {
                 <h3 className='cash_party_section__title_second'>Запрошуємо тебе на найбажаніший івент року про
                     гроші!</h3>
                 <p className='cash_party_section__description'>Приготуйся до неймовірних вражень та розкішних
-                    можливостей заробітку.</p>
+                    можливостей заробітку</p>
                 <p className='cash_party_section__list_title'>На нашому заході тебе чекає:</p>
                 <ul className="cash_party_section__list">
                     <li className="cash_party_section__list_item">
