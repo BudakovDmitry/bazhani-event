@@ -1,9 +1,10 @@
 import './styles/main.scss'
+import MainSection from "@/app/components/MainSection";
 
 export default function Home() {
   return (
     <main>
-      <h1>Hello world</h1>
+        <MainSection />
     </main>
   );
 }
