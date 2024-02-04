@@ -1,6 +1,8 @@
 'use client'
 
-import { motion } from 'framer-motion';
+import {motion} from 'framer-motion';
+import Image from "next/image";
+import ListMarker from "@/public/list_marker.png";
 
 const CashParty = () => {
     const numberOfElements = 10;
@@ -40,6 +42,35 @@ const CashParty = () => {
                     гроші!</h3>
                 <p className='cash_party_section__description'>Приготуйся до неймовірних вражень та розкішних
                     можливостей заробітку.</p>
+                <p className='cash_party_section__list_title'>На нашому заході тебе чекає:</p>
+                <ul className="cash_party_section__list">
+                    <li className="cash_party_section__list_item">
+                        <Image src={ListMarker} alt="List marker" className='cash_party_section__list_item_marker'
+                               priority={true} unoptimized/>
+                        Виступ експерта по грошовим законам (ексклюзивний доступ до унікальних фінансових стратегій)
+                    </li>
+                    <li className="cash_party_section__list_item">
+                        <Image src={ListMarker} alt="List marker" className='cash_party_section__list_item_marker'
+                               priority={true} unoptimized/>
+                        Інтерактивні локації для швидкого збільшення твого капіталу в розважальному форматі.
+                    </li>
+                    <li className="cash_party_section__list_item">
+                        <Image src={ListMarker} alt="List marker" className='cash_party_section__list_item_marker'
+                               priority={true} unoptimized/>
+                        Участь в аукціоні від наших спонсорів
+                    </li>
+                    <li className="cash_party_section__list_item">
+                        <Image src={ListMarker} alt="List marker" className='cash_party_section__list_item_marker'
+                               priority={true} unoptimized/>
+                        Фуршет та ігристе
+                    </li>
+                    <li className="cash_party_section__list_item">
+                        <Image src={ListMarker} alt="List marker" className='cash_party_section__list_item_marker'
+                               priority={true} unoptimized/>
+                        Фото та відео зйомка
+                    </li>
+                </ul>
+                <p className='cash_party_section__list_description'>Приєднуйтеся до <span className='cash_party_section__list_description_upper'><span className='cash_party_section__list_description_upper cash_party_section__list_description_green'>Cash</span> Party</span>, де ми наповнимо твій ресурс знаннями та емоціями!</p>
             </div>
         </section>
     )
