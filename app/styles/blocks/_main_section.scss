@@ -36,17 +36,24 @@
     width: 90%;
     top: 40px;
     right: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    &_title {
-      text-align: center;
-      font-weight: 700;
-    }
     &_container {
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+    &_subtitle {
+      text-align: center;
+      font-size: 30px;
+    }
+    &_day {
+      font-size: 80px;
+    }
+    &_month {
+      font-size: 80px;
+    }
+    &_title {
+      text-align: center;
+      font-weight: 700;
     }
   }
   &__subtitle {
