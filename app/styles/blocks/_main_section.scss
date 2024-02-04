@@ -1,5 +1,8 @@
 .main_section {
-  height: 100vh;
+  height: 550px;
+  @media screen and (min-height: 630px) {
+    height: 650px;
+  }
   @include media-breakpoint-up(xl) {
     height: 100vh;
   }
