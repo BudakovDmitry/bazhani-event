@@ -4,6 +4,10 @@ import {motion} from 'framer-motion';
 import Image from "next/image";
 import Ticket from "@/public/ticket.png";
 import ArrowDown from "@/public/arrow_down.png";
+import VisaLogo from "@/public/visa_logo.svg";
+import MastercardLogo from "@/public/mastercard_logo.svg";
+import GooglePayLogo from "@/public/google_pay_logo.svg";
+import ApplePayLogo from "@/public/apple_pay_logo.svg";
 
 const PaymentSection = () => {
     return (
@@ -24,6 +28,16 @@ const PaymentSection = () => {
                     <Image src={Ticket} alt="Ticket" className='payment_section__link_ticket' priority={true}
                            unoptimized/>
                 </a>
+                <div className="payment_section__payments">
+                    <Image src={VisaLogo} alt="Visa" className='payment_section__payments_logo' priority={true}
+                           unoptimized/>
+                    <Image src={MastercardLogo} alt="Mastercard" className='payment_section__payments_logo' priority={true}
+                           unoptimized/>
+                    <Image src={GooglePayLogo} alt="Google Pay" className='payment_section__payments_logo' priority={true}
+                           unoptimized/>
+                    <Image src={ApplePayLogo} alt="Apple Pay" className='payment_section__payments_logo' priority={true}
+                           unoptimized/>
+                </div>
             </div>
         </section>
     )

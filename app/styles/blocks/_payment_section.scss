@@ -5,7 +5,7 @@
   &__link {
     display: block;
     width: 80%;
-    margin: 0 auto 50px;
+    margin: 0 auto 20px;
     &_ticket {
       display: block;
       width: 100%;
@@ -24,6 +24,18 @@
       width: 20px;
       height: auto;
       display: block;
+    }
+  }
+  &__payments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    &_logo {
+      display: block;
+      max-width: 50px;
+      max-height: 30px;
+      margin: 0 10px;
     }
   }
 }
