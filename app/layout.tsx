@@ -4,11 +4,11 @@ import "bootstrap/dist/css/bootstrap.css"
 export async function generateMetadata() {
   return {
     title: 'BAZHANI EVENT',
-    description: '',
+    description: 'Запрошуємо тебе на найбажаніший івент року про гроші!',
     openGraph: {
       title: 'BAZHANI EVENT',
-      description: '',
-      images: ['']
+      description: 'Запрошуємо тебе на найбажаніший івент року про гроші!',
+      images: ['/bazhani_event_logo.png']
     }
   };
 }

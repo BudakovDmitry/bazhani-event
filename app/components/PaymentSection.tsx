@@ -20,7 +20,7 @@ const PaymentSection = () => {
                     <Image src={ArrowDown} alt="Arrow down" className='payment_section__hint_icon' priority={true}
                            unoptimized/>
                 </motion.div>
-                <a href="#" className="payment_section__link">
+                <a href="https://secure.wayforpay.com/button/b0ef35876fc8d" className="payment_section__link">
                     <Image src={Ticket} alt="Ticket" className='payment_section__link_ticket' priority={true}
                            unoptimized/>
                 </a>
