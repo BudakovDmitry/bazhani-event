@@ -35,6 +35,7 @@ const MainSection = () => {
                     </div>
                     </div>
                     <p className="main_section__date_subtitle">Дніпро</p>
+                    <p className="main_section__date_subtitle_second">13:00 - 17:00</p>
                 </div>
                 <Image src={MainPhoto} alt="Main photo" className='main_section__photo' priority={true} unoptimized/>
                 <div className="main_section__title_container">

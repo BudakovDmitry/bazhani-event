@@ -34,7 +34,7 @@
   &__date {
     position: absolute;
     width: 90%;
-    top: 40px;
+    top: 20px;
     right: 20px;
     &_container {
       display: flex;
@@ -44,6 +44,11 @@
     &_subtitle {
       text-align: center;
       font-size: 30px;
+      margin: 0;
+      &_second {
+        text-align: center;
+        font-size: 14px;
+      }
     }
     &_day {
       font-size: 80px;
